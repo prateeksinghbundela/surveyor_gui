@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rspec-retry')
 
   s.add_dependency 'surveyor', '~> 1.4.1.pre'
-  s.add_dependency 'will_paginate', '~> 3.0.5'
+  s.add_dependency 'will_paginate', '~> 3.3.0'
 
   s.add_dependency 'simple_form', '~> 5.0.2'
   s.add_dependency 'carrierwave'
