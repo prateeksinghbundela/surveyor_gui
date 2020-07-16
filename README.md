@@ -32,8 +32,8 @@ Surveyor_gui is a mountable engine.
 
 SurveyorGui works with:
 
-* Ruby 1.9.3
-* Rails 4, 4.1
+* Ruby 2.6.5
+* Rails 6.0
 
 
 Some key dependencies are:
@@ -54,7 +54,7 @@ A more exhaustive list can be found in the gemspecs for Surveyor [surveyor] and 
 Add surveyor and surveyor-gui to your Gemfile:
 
     gem 'surveyor', github: 'NUBIC/surveyor'
-    gem 'surveyor_gui'
+    gem 'surveyor_gui', github: 'Sandeepcoder98/surveyor_gui'
 
 You will also need a javascript runtime, like node.js or therubyracer.  If you
 have not yet installed one, add
