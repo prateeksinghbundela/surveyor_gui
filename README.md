@@ -46,9 +46,8 @@ Some key dependencies are:
 A more exhaustive list can be found in the gemspecs for Surveyor [surveyor] and Surveyor_gui [surveyor-gui][].
 
 [surveyor]: https://github.com/NUBIC/surveyor/blob/master/surveyor.gemspec
-[surveyor-gui]: https://github.com/kjayma/surveyor_gui/blob/master/surveyor_gui.gemspec
+[surveyor-gui]: https://github.com/Sandeepcoder98/surveyor_gui/blob/master/surveyor_gui.gemspec
 [policy]: http://weblog.rubyonrails.org/2013/2/24/maintenance-policy-for-ruby-on-rails/
-
 ## Install
 
 Add surveyor and surveyor-gui to your Gemfile:
