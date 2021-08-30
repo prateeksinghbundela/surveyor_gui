@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'rails', '~> 6.1.3'
-  s.add_dependency 'dynamic_form', '~> 1.1.4'
+  # s.add_dependency 'dynamic_form', '~> 1.1.4'
   #s.add_dependency 'jquery-ui-rails'
   s.add_dependency 'jquery-ui-sass-rails'
 
@@ -40,13 +40,13 @@ Gem::Specification.new do |s|
   s.add_development_dependency('database_cleaner', '~> 1.2.0')
   s.add_development_dependency('rspec-retry')
 
-  s.add_dependency 'surveyor', '~> 1.4.1.pre'
+  # s.add_dependency 'surveyor', '~> 1.4.1.pre'
   s.add_dependency 'will_paginate', '~> 3.3.0'
 
-  s.add_dependency 'simple_form', '~> 5.0.2'
-  s.add_dependency 'carrierwave'
-  s.add_dependency 'colorbox-rails', '~> 0.1.1'
-  s.add_dependency 'jquery-form-rails', '~> 1.0.1'
-  s.add_dependency 'deep_cloneable', '~> 3.0.0'  
+  # s.add_dependency 'simple_form', '~> 5.0.2'
+  # s.add_dependency 'carrierwave'
+  s.add_dependency 'colorbox-rails'
+  s.add_dependency 'jquery-form-rails'
+  s.add_dependency 'deep_cloneable'  
   s.add_dependency 'lazy_high_charts' 
 end
